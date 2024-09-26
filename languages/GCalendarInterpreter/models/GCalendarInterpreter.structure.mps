@@ -237,11 +237,12 @@
   <node concept="Az7Fb" id="5VDi0sWjWXw">
     <property role="3F6X1D" value="6839076705052643168" />
     <property role="TrG5h" value="Date" />
-    <property role="FLfZY" value="(0)" />
+    <property role="FLfZY" value="^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\\d{4}$" />
   </node>
   <node concept="Az7Fb" id="5VDi0sWk5m7">
     <property role="3F6X1D" value="6839076705052677511" />
     <property role="TrG5h" value="Hour" />
+    <property role="FLfZY" value="^(?:[01]\\d|2[0-3]):[0-5]\\d$" />
   </node>
 </model>
 

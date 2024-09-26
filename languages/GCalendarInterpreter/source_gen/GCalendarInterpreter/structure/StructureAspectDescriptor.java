@@ -27,8 +27,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTitulo = createDescriptorForTitulo();
   /*package*/ final ConceptDescriptor myConceptUbicacion = createDescriptorForUbicacion();
   /*package*/ final EnumerationDescriptor myEnumerationColours = new EnumerationDescriptor_Colours();
-  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeDate = new ConstrainedStringDatatypeDescriptorImpl(0x4a6101dd798a4af7L, 0x9cc1cbdd6558b662L, 0x5ee948073c4fcf60L, "Date", "r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052643168", "(0)");
-  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeHour = new ConstrainedStringDatatypeDescriptorImpl(0x4a6101dd798a4af7L, 0x9cc1cbdd6558b662L, 0x5ee948073c505587L, "Hour", "r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052677511", "");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeDate = new ConstrainedStringDatatypeDescriptorImpl(0x4a6101dd798a4af7L, 0x9cc1cbdd6558b662L, 0x5ee948073c4fcf60L, "Date", "r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052643168", "^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\\d{4}$");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeHour = new ConstrainedStringDatatypeDescriptorImpl(0x4a6101dd798a4af7L, 0x9cc1cbdd6558b662L, 0x5ee948073c505587L, "Hour", "r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052677511", "^(?:[01]\\d|2[0-3]):[0-5]\\d$");
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {

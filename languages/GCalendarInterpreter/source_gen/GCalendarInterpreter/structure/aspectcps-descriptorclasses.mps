@@ -2518,7 +2518,7 @@
             <property role="Xl_RC" value="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052643168" />
           </node>
           <node concept="Xl_RD" id="cd" role="37wK5m">
-            <property role="Xl_RC" value="(0)" />
+            <property role="Xl_RC" value="^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\\d{4}$" />
           </node>
         </node>
       </node>
@@ -2549,7 +2549,9 @@
           <node concept="Xl_RD" id="cl" role="37wK5m">
             <property role="Xl_RC" value="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052677511" />
           </node>
-          <node concept="Xl_RD" id="cm" role="37wK5m" />
+          <node concept="Xl_RD" id="cm" role="37wK5m">
+            <property role="Xl_RC" value="^(?:[01]\\d|2[0-3]):[0-5]\\d$" />
+          </node>
         </node>
       </node>
     </node>

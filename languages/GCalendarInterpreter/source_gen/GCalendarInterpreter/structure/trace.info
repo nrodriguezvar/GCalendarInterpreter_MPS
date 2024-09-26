@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,86,0" name="GCalendarInterpreter.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,42,0" name="GCalendarInterpreter.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="20,0,155,0" name="GCalendarInterpreter.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388672">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388672" at="14,0,15,0" concept="2" trace="props_Evento" />
+      <node id="6839076705052388672" at="41,35,42,76" concept="5" />
+      <node id="6839076705052388672" at="42,76,43,40" concept="1" />
+      <node id="6839076705052388672" at="43,40,44,38" concept="1" />
+      <node id="6839076705052388672" at="45,9,46,28" concept="6" />
+      <node id="6839076705052388672" at="40,40,45,9" concept="3" />
+      <scope id="6839076705052388672" at="41,35,44,38">
+        <var name="cpb" id="6839076705052388672" />
+      </scope>
+      <scope id="6839076705052388672" at="40,40,46,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388672" at="14,0,15,0" concept="7" trace="Evento" />
+      <node id="6839076705052388672" at="24,50,25,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388672" at="23,0,24,0" concept="2" trace="myConceptEvento" />
+      <node id="6839076705052388672" at="57,40,58,31" concept="6" />
+      <node id="6839076705052388672" at="99,64,100,161" concept="5" />
+      <node id="6839076705052388672" at="100,161,101,33" concept="1" />
+      <node id="6839076705052388672" at="101,33,102,107" concept="1" />
+      <node id="6839076705052388672" at="102,107,103,17" concept="1" />
+      <node id="6839076705052388679" at="103,17,104,200" concept="1" />
+      <node id="6839076705052388672" at="104,200,105,22" concept="6" />
+      <node id="6839076705052388672" at="99,0,107,0" concept="8" trace="createDescriptorForEvento#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388672" at="57,40,58,31" />
+      <scope id="6839076705052388672" at="99,64,105,22">
+        <var name="b" id="6839076705052388672" />
+      </scope>
+      <scope id="6839076705052388672" at="99,0,107,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388677">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388677" at="17,0,18,0" concept="2" trace="props_ListCampos" />
+      <node id="6839076705052388677" at="62,39,63,76" concept="5" />
+      <node id="6839076705052388677" at="63,76,64,44" concept="1" />
+      <node id="6839076705052388677" at="64,44,65,42" concept="1" />
+      <node id="6839076705052388677" at="66,9,67,32" concept="6" />
+      <node id="6839076705052388677" at="61,44,66,9" concept="3" />
+      <scope id="6839076705052388677" at="62,39,65,42">
+        <var name="cpb" id="6839076705052388677" />
+      </scope>
+      <scope id="6839076705052388677" at="61,44,67,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388677" at="17,0,18,0" concept="7" trace="ListCampos" />
+      <node id="6839076705052388677" at="27,50,28,49" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388677" at="26,0,27,0" concept="2" trace="myConceptListCampos" />
+      <node id="6839076705052388677" at="63,44,64,35" concept="6" />
+      <node id="6839076705052388677" at="125,68,126,165" concept="5" />
+      <node id="6839076705052388677" at="126,165,127,34" concept="1" />
+      <node id="6839076705052388677" at="127,34,128,107" concept="1" />
+      <node id="6839076705052388677" at="128,107,129,17" concept="1" />
+      <node id="6839076705052574000" at="129,17,130,199" concept="1" />
+      <node id="6839076705052608686" at="130,199,131,204" concept="1" />
+      <node id="6839076705052608689" at="131,204,132,201" concept="1" />
+      <node id="6839076705052608690" at="132,201,133,202" concept="1" />
+      <node id="6839076705052608692" at="133,202,134,204" concept="1" />
+      <node id="6839076705052608693" at="134,204,135,198" concept="1" />
+      <node id="6839076705052388677" at="135,198,136,22" concept="6" />
+      <node id="6839076705052388677" at="125,0,138,0" concept="8" trace="createDescriptorForListCampos#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388677" at="63,44,64,35" />
+      <scope id="6839076705052388677" at="125,68,136,22">
+        <var name="b" id="6839076705052388677" />
+      </scope>
+      <scope id="6839076705052388677" at="125,0,138,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388690">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388690" at="18,0,19,0" concept="2" trace="props_Titulo" />
+      <node id="6839076705052388690" at="69,35,70,76" concept="5" />
+      <node id="6839076705052388690" at="70,76,71,40" concept="1" />
+      <node id="6839076705052388690" at="71,40,72,38" concept="1" />
+      <node id="6839076705052388690" at="73,9,74,28" concept="6" />
+      <node id="6839076705052388690" at="68,40,73,9" concept="3" />
+      <scope id="6839076705052388690" at="69,35,72,38">
+        <var name="cpb" id="6839076705052388690" />
+      </scope>
+      <scope id="6839076705052388690" at="68,40,74,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388690" at="18,0,19,0" concept="7" trace="Titulo" />
+      <node id="6839076705052388690" at="28,49,29,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388690" at="27,0,28,0" concept="2" trace="myConceptTitulo" />
+      <node id="6839076705052388690" at="65,40,66,31" concept="6" />
+      <node id="6839076705052388690" at="138,64,139,161" concept="5" />
+      <node id="6839076705052388690" at="139,161,140,34" concept="1" />
+      <node id="6839076705052388690" at="140,34,141,107" concept="1" />
+      <node id="6839076705052388690" at="141,107,142,17" concept="1" />
+      <node id="6839076705052388693" at="142,17,143,118" concept="1" />
+      <node id="6839076705052388690" at="143,118,144,22" concept="6" />
+      <node id="6839076705052388690" at="138,0,146,0" concept="8" trace="createDescriptorForTitulo#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388690" at="65,40,66,31" />
+      <scope id="6839076705052388690" at="138,64,144,22">
+        <var name="b" id="6839076705052388690" />
+      </scope>
+      <scope id="6839076705052388690" at="138,0,146,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388694">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388694" at="16,0,17,0" concept="2" trace="props_FechaInicio" />
+      <node id="6839076705052388694" at="55,40,56,76" concept="5" />
+      <node id="6839076705052388694" at="56,76,57,45" concept="1" />
+      <node id="6839076705052388694" at="57,45,58,43" concept="1" />
+      <node id="6839076705052388694" at="59,9,60,33" concept="6" />
+      <node id="6839076705052388694" at="54,45,59,9" concept="3" />
+      <scope id="6839076705052388694" at="55,40,58,43">
+        <var name="cpb" id="6839076705052388694" />
+      </scope>
+      <scope id="6839076705052388694" at="54,45,60,33" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388694" at="16,0,17,0" concept="7" trace="FechaInicio" />
+      <node id="6839076705052388694" at="26,47,27,50" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388694" at="25,0,26,0" concept="2" trace="myConceptFechaInicio" />
+      <node id="6839076705052388694" at="61,45,62,36" concept="6" />
+      <node id="6839076705052388694" at="116,69,117,166" concept="5" />
+      <node id="6839076705052388694" at="117,166,118,34" concept="1" />
+      <node id="6839076705052388694" at="118,34,119,107" concept="1" />
+      <node id="6839076705052388694" at="119,107,120,17" concept="1" />
+      <node id="6839076705052388696" at="120,17,121,186" concept="1" />
+      <node id="6839076705052388866" at="121,186,122,181" concept="1" />
+      <node id="6839076705052388694" at="122,181,123,22" concept="6" />
+      <node id="6839076705052388694" at="116,0,125,0" concept="8" trace="createDescriptorForFechaInicio#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388694" at="61,45,62,36" />
+      <scope id="6839076705052388694" at="116,69,123,22">
+        <var name="b" id="6839076705052388694" />
+      </scope>
+      <scope id="6839076705052388694" at="116,0,125,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388706">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388706" at="19,0,20,0" concept="2" trace="props_Ubicacion" />
+      <node id="6839076705052388706" at="76,38,77,76" concept="5" />
+      <node id="6839076705052388706" at="77,76,78,43" concept="1" />
+      <node id="6839076705052388706" at="78,43,79,41" concept="1" />
+      <node id="6839076705052388706" at="80,9,81,31" concept="6" />
+      <node id="6839076705052388706" at="75,43,80,9" concept="3" />
+      <scope id="6839076705052388706" at="76,38,79,41">
+        <var name="cpb" id="6839076705052388706" />
+      </scope>
+      <scope id="6839076705052388706" at="75,43,81,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388706" at="19,0,20,0" concept="7" trace="Ubicacion" />
+      <node id="6839076705052388706" at="29,45,30,48" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388706" at="28,0,29,0" concept="2" trace="myConceptUbicacion" />
+      <node id="6839076705052388706" at="67,43,68,34" concept="6" />
+      <node id="6839076705052388706" at="146,67,147,164" concept="5" />
+      <node id="6839076705052388706" at="147,164,148,34" concept="1" />
+      <node id="6839076705052388706" at="148,34,149,107" concept="1" />
+      <node id="6839076705052388706" at="149,107,150,17" concept="1" />
+      <node id="6839076705052388708" at="150,17,151,121" concept="1" />
+      <node id="6839076705052388706" at="151,121,152,22" concept="6" />
+      <node id="6839076705052388706" at="146,0,154,0" concept="8" trace="createDescriptorForUbicacion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388706" at="67,43,68,34" />
+      <scope id="6839076705052388706" at="146,67,152,22">
+        <var name="b" id="6839076705052388706" />
+      </scope>
+      <scope id="6839076705052388706" at="146,0,154,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388713">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388713" at="12,0,13,0" concept="2" trace="props_Color" />
+      <node id="6839076705052388713" at="27,34,28,76" concept="5" />
+      <node id="6839076705052388713" at="28,76,29,39" concept="1" />
+      <node id="6839076705052388713" at="29,39,30,37" concept="1" />
+      <node id="6839076705052388713" at="31,9,32,27" concept="6" />
+      <node id="6839076705052388713" at="26,39,31,9" concept="3" />
+      <scope id="6839076705052388713" at="27,34,30,37">
+        <var name="cpb" id="6839076705052388713" />
+      </scope>
+      <scope id="6839076705052388713" at="26,39,32,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388713" at="12,0,13,0" concept="7" trace="Color" />
+      <node id="6839076705052388713" at="22,116,23,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388713" at="21,0,22,0" concept="2" trace="myConceptColor" />
+      <node id="6839076705052388713" at="53,39,54,30" concept="6" />
+      <node id="6839076705052388713" at="83,63,84,160" concept="5" />
+      <node id="6839076705052388713" at="84,160,85,34" concept="1" />
+      <node id="6839076705052388713" at="85,34,86,107" concept="1" />
+      <node id="6839076705052388713" at="86,107,87,17" concept="1" />
+      <node id="6839076705052388714" at="87,17,88,180" concept="1" />
+      <node id="6839076705052388713" at="88,180,89,22" concept="6" />
+      <node id="6839076705052388713" at="83,0,91,0" concept="8" trace="createDescriptorForColor#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388713" at="53,39,54,30" />
+      <scope id="6839076705052388713" at="83,63,89,22">
+        <var name="b" id="6839076705052388713" />
+      </scope>
+      <scope id="6839076705052388713" at="83,0,91,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388908">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388908" at="15,0,16,0" concept="2" trace="props_FechaFin" />
+      <node id="6839076705052388908" at="48,37,49,76" concept="5" />
+      <node id="6839076705052388908" at="49,76,50,42" concept="1" />
+      <node id="6839076705052388908" at="50,42,51,40" concept="1" />
+      <node id="6839076705052388908" at="52,9,53,30" concept="6" />
+      <node id="6839076705052388908" at="47,42,52,9" concept="3" />
+      <scope id="6839076705052388908" at="48,37,51,40">
+        <var name="cpb" id="6839076705052388908" />
+      </scope>
+      <scope id="6839076705052388908" at="47,42,53,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388908" at="15,0,16,0" concept="7" trace="FechaFin" />
+      <node id="6839076705052388908" at="25,45,26,47" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388908" at="24,0,25,0" concept="2" trace="myConceptFechaFin" />
+      <node id="6839076705052388908" at="59,42,60,33" concept="6" />
+      <node id="6839076705052388908" at="107,66,108,163" concept="5" />
+      <node id="6839076705052388908" at="108,163,109,34" concept="1" />
+      <node id="6839076705052388908" at="109,34,110,107" concept="1" />
+      <node id="6839076705052388908" at="110,107,111,17" concept="1" />
+      <node id="6839076705052388910" at="111,17,112,183" concept="1" />
+      <node id="6839076705052388911" at="112,183,113,178" concept="1" />
+      <node id="6839076705052388908" at="113,178,114,22" concept="6" />
+      <node id="6839076705052388908" at="107,0,116,0" concept="8" trace="createDescriptorForFechaFin#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388908" at="59,42,60,33" />
+      <scope id="6839076705052388908" at="107,66,114,22">
+        <var name="b" id="6839076705052388908" />
+      </scope>
+      <scope id="6839076705052388908" at="107,0,116,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388938">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6839076705052388938" at="13,0,14,0" concept="2" trace="props_Descripcion" />
+      <node id="6839076705052388938" at="34,40,35,76" concept="5" />
+      <node id="6839076705052388938" at="35,76,36,45" concept="1" />
+      <node id="6839076705052388938" at="36,45,37,43" concept="1" />
+      <node id="6839076705052388938" at="38,9,39,33" concept="6" />
+      <node id="6839076705052388938" at="33,45,38,9" concept="3" />
+      <scope id="6839076705052388938" at="34,40,37,43">
+        <var name="cpb" id="6839076705052388938" />
+      </scope>
+      <scope id="6839076705052388938" at="33,45,39,33" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6839076705052388938" at="13,0,14,0" concept="7" trace="Descripcion" />
+      <node id="6839076705052388938" at="23,44,24,50" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388938" at="22,0,23,0" concept="2" trace="myConceptDescripcion" />
+      <node id="6839076705052388938" at="55,45,56,36" concept="6" />
+      <node id="6839076705052388938" at="91,69,92,166" concept="5" />
+      <node id="6839076705052388938" at="92,166,93,34" concept="1" />
+      <node id="6839076705052388938" at="93,34,94,107" concept="1" />
+      <node id="6839076705052388938" at="94,107,95,17" concept="1" />
+      <node id="6839076705052388940" at="95,17,96,123" concept="1" />
+      <node id="6839076705052388938" at="96,123,97,22" concept="6" />
+      <node id="6839076705052388938" at="91,0,99,0" concept="8" trace="createDescriptorForDescripcion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6839076705052388938" at="55,45,56,36" />
+      <scope id="6839076705052388938" at="91,69,97,22">
+        <var name="b" id="6839076705052388938" />
+      </scope>
+      <scope id="6839076705052388938" at="91,0,99,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052388962">
+    <file name="EnumerationDescriptor_Colours.java">
+      <node id="6839076705052388962" at="14,42,15,178" concept="9" />
+      <node id="6839076705052388964" at="18,0,19,0" concept="2" trace="myMember_Tomate_0" />
+      <node id="6839076705052388963" at="19,0,20,0" concept="2" trace="myMember_Mandarina_0" />
+      <node id="6839076705052388966" at="20,0,21,0" concept="2" trace="myMember_Salvia_0" />
+      <node id="6839076705052388967" at="21,0,22,0" concept="2" trace="myMember_PavoReal_0" />
+      <node id="6839076705052388969" at="22,0,23,0" concept="2" trace="myMember_Lavanda_0" />
+      <node id="6839076705052388970" at="23,0,24,0" concept="2" trace="myMember_Flamenco_0" />
+      <node id="6839076705052388971" at="24,0,25,0" concept="2" trace="myMember_Banana_0" />
+      <node id="6839076705052388972" at="25,0,26,0" concept="2" trace="myMember_Albahaca_0" />
+      <node id="6839076705052388973" at="26,0,27,0" concept="2" trace="myMember_Arandano_0" />
+      <node id="6839076705052388974" at="27,0,28,0" concept="2" trace="myMember_Uva_0" />
+      <node id="6839076705052388976" at="28,0,29,0" concept="2" trace="myMember_Grafito_0" />
+      <node id="6839076705052388962" at="30,0,31,0" concept="2" trace="myIndex" />
+      <node id="6839076705052388962" at="31,0,32,0" concept="2" trace="myMembers" />
+      <node id="6839076705052388962" at="35,62,36,31" concept="6" />
+      <node id="6839076705052388962" at="41,68,42,21" concept="6" />
+      <node id="6839076705052388962" at="48,29,49,18" concept="6" />
+      <node id="6839076705052388964" at="52,20,53,33" concept="6" />
+      <node id="6839076705052388963" at="54,23,55,36" concept="6" />
+      <node id="6839076705052388966" at="56,20,57,33" concept="6" />
+      <node id="6839076705052388967" at="58,22,59,35" concept="6" />
+      <node id="6839076705052388969" at="60,21,61,34" concept="6" />
+      <node id="6839076705052388970" at="62,22,63,35" concept="6" />
+      <node id="6839076705052388971" at="64,20,65,33" concept="6" />
+      <node id="6839076705052388972" at="66,22,67,35" concept="6" />
+      <node id="6839076705052388973" at="68,22,69,35" concept="6" />
+      <node id="6839076705052388974" at="70,17,71,30" concept="6" />
+      <node id="6839076705052388976" at="72,21,73,34" concept="6" />
+      <node id="6839076705052388962" at="74,5,75,16" concept="6" />
+      <node id="6839076705052388962" at="80,73,81,39" concept="5" />
+      <node id="6839076705052388962" at="82,22,83,18" concept="6" />
+      <node id="6839076705052388962" at="84,5,85,32" concept="6" />
+      <node id="6839076705052388962" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_Colours#()V" />
+      <node id="6839076705052388962" at="47,88,50,5" concept="3" />
+      <node id="6839076705052388962" at="81,39,84,5" concept="3" />
+      <node id="6839076705052388962" at="33,0,38,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6839076705052388962" at="39,0,44,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="6839076705052388962" at="78,0,87,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6839076705052388962" at="50,5,74,5" concept="10" />
+      <node id="6839076705052388962" at="45,0,77,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="6839076705052388962" at="14,42,15,178" />
+      <scope id="6839076705052388962" at="35,62,36,31" />
+      <scope id="6839076705052388962" at="41,68,42,21" />
+      <scope id="6839076705052388962" at="48,29,49,18" />
+      <scope id="6839076705052388964" at="52,20,53,33" />
+      <scope id="6839076705052388963" at="54,23,55,36" />
+      <scope id="6839076705052388966" at="56,20,57,33" />
+      <scope id="6839076705052388967" at="58,22,59,35" />
+      <scope id="6839076705052388969" at="60,21,61,34" />
+      <scope id="6839076705052388970" at="62,22,63,35" />
+      <scope id="6839076705052388971" at="64,20,65,33" />
+      <scope id="6839076705052388972" at="66,22,67,35" />
+      <scope id="6839076705052388973" at="68,22,69,35" />
+      <scope id="6839076705052388974" at="70,17,71,30" />
+      <scope id="6839076705052388976" at="72,21,73,34" />
+      <scope id="6839076705052388962" at="82,22,83,18" />
+      <scope id="6839076705052388962" at="14,0,17,0" />
+      <scope id="6839076705052388962" at="33,0,38,0" />
+      <scope id="6839076705052388962" at="39,0,44,0" />
+      <scope id="6839076705052388962" at="80,73,85,32">
+        <var name="index" id="6839076705052388962" />
+      </scope>
+      <scope id="6839076705052388962" at="78,0,87,0">
+        <var name="idValue" id="6839076705052388962" />
+      </scope>
+      <scope id="6839076705052388962" at="47,88,75,16" />
+      <scope id="6839076705052388962" at="45,0,77,0">
+        <var name="memberName" id="6839076705052388962" />
+      </scope>
+      <unit id="6839076705052388962" at="12,0,88,0" name="GCalendarInterpreter.structure.EnumerationDescriptor_Colours" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052388962" at="29,0,30,0" concept="2" trace="myEnumerationColours" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052643168">
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052643168" at="30,0,31,0" concept="2" trace="myCSDatatypeDate" />
+    </file>
+  </root>
+  <root nodeRef="r:c5149202-ab09-4801-b82a-d810bd981849(GCalendarInterpreter.structure)/6839076705052677511">
+    <file name="StructureAspectDescriptor.java">
+      <node id="6839076705052677511" at="31,0,32,0" concept="2" trace="myCSDatatypeHour" />
+    </file>
+  </root>
+</debug-info>
+
